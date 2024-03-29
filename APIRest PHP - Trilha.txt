@@ -1,0 +1,71 @@
+Requisitos:
+
+Conhecer o PHP;
+Conhecer o básico de POO
+
+API -> Aplication Program Interface
+			-> Conjunto de rotinas ou padrões de uma aplicação que podem ser acessados por outra aplicação sem precisar conhecer os detalhes da 
+				implementação do software.
+				
+-Representational State Transfer (REST) - Estado de Transferência representacional;
+-Requisições HTTP
+-Verbos HTTP: GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, ...
+-Formato do arquivo: JSON
+
+Exemplo de JSON:
+{
+    "nome": "Jose Carlos",
+    "sobrenome": "Macoratti",
+    "idade": 45,
+    "endereco":  {  
+                           "endereco": "Rua Projetada, 200", 
+                           "cidade": "Santos", 
+                           "estado": "SP",
+                           "cep": 11054058
+                       },
+    "telefone": [
+                            {
+                                "tipo": "fixo",
+                                "numero": "212 555-1234"
+                            },
+                            {
+                                "tipo": "celular",
+                                "numero": "646 555-4567"
+                            }
+                     ]
+}
+
+		Open Connection
+		 Send Request
+		------------->
+USER					SERVER
+		Sends Response
+		<-------------
+		Close Connection
+		
+Vantagens de usar API REST
+
+-Separação do back do front-end
+-Reutilização do Bak-end em diferentes lugares
+-Facil de conectar com qualquer linguagem e plataforma
+
+Ferramentas necessárias
+
+-XAMP
+-PHP 7+
+-Composer (Gerenciador de Dependências) - facilitador para instalar dependências
+-MySQL
+-VSCode
+
+Etapas:
+
+-Como o Slim funciona
+-Arquitetura do Projeto
+-Banco de Dados
+-Autenticação
+-Documentação
+-Conclusão
+
+
+Feito a configuração do ambiente instalando composer e inicializando o projeto com framework Slim.
+
